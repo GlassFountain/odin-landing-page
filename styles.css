@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body, h1{
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+/* Text Colors */
+.logo-text, .nav-links, .banner-title, button, .header-link-text, .action-text, .action-text-head, .footer > p{
+    color: #F9FAF8;
+}
+
+/* Header */
+.header, .footer{
+    background-color: #1F2937;
+}
+.logo-text{
+    font-size: 24px;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.banner-title{
+    font-weight: 'extra-bold';
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+
+.banner-sec-text{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button{
+    background-color: #3882F6;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.header-image{
+    width: 35%;
+}
+
+/* Illustration Section */
+
+.img.card{
+}
+
+.card-file{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+/* Quote Section */
+
+.quote-section{
+    background-color: #E5E7EB;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+}
+
+/* Call To Action */
+
+.action-box{
+    background-color: #3882F6;
+}
