@@ -4,6 +4,15 @@ body, h1{
     margin: 0;
     font-family: Roboto, sans-serif;
 }
+a{
+    text-decoration: none;
+    color: forestgreen;
+}
+
+/* DEBUG */
+.action-box > * {
+    border: 0px solid red;
+}
 
 /* Text Colors */
 .logo-text, .nav-links, .banner-title, button, .header-link-text, .action-text, .action-text-head, .footer > p{
@@ -14,14 +23,43 @@ body, h1{
 .header, .footer{
     background-color: #1F2937;
 }
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 78px;
+}
+.header-content{
+    width: 70%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+img {
+    display: inline;
+    margin: 0px;
+}
 .logo-text{
     font-size: 24px;
+    padding: 10px;
 }
-
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
 .nav-links{
     list-style: none;
+    display: flex;
+    gap: 1rem;
+    /* padding: 0px 25px; */
 }
-
 .banner-title{
     font-weight: 'extra-bold';
     font-size: 48px;
@@ -41,12 +79,30 @@ button{
 }
 
 .header-image{
-    width: 35%;
+    width: 700px;
+}
+
+.header-link-text{
+    font-style: italic;
 }
 
 /* Illustration Section */
 
-.img.card{
+.illustration-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration-section > * {
+    margin: 45px 0px;
+}
+
+.image-cards{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
 }
 
 .card-file{
@@ -62,13 +118,61 @@ button{
     background-color: #E5E7EB;
 }
 
+.quote-content{
+    padding: 100px 0px;
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
 .quote-text{
+    font-weight: 100;
     font-size: 36px;
     font-style: italic;
 }
 
+.quote-author, .action-text-head{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.quote-author{
+    align-self: flex-end;
+}
+
 /* Call To Action */
 
+.call-to-action{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
 .action-box{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 850px;
+    padding: 25px 40px;
+    border-radius: 20px;
     background-color: #3882F6;
+}
+
+.action-btn{
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 7px 28px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
 }
