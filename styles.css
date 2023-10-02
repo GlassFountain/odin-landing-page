@@ -21,7 +21,7 @@ a{
 
 /* Header */
 .header, .footer{
-    background-color: #1F2937;
+    background-color: #1c3026;
 }
 .nav-bar{
     display: flex;
@@ -72,7 +72,7 @@ img {
 }
 
 button{
-    background-color: #3882F6;
+    background-color: #588157;
     border: none;
     padding: 10px 30px;
     border-radius: 10px;
@@ -108,7 +108,7 @@ button{
 .card-file{
     width: 150px;
     height: 150px;
-    border: 5px solid #3882F6;
+    border: 5px solid #588157;
     border-radius: 10px;
 }
 
@@ -159,7 +159,7 @@ button{
     width: 850px;
     padding: 25px 40px;
     border-radius: 20px;
-    background-color: #3882F6;
+    background-color: #588157;
 }
 
 .action-btn{
@@ -176,3 +176,9 @@ button{
     justify-content: center;
     padding: 10px 0px;
 }
+
+.header{
+    background: url("./Images/sagano-mtn.jpg") rgba(0, 0, 0, 0.3);
+    background-blend-mode: color;
+}
+
